@@ -1,0 +1,57 @@
+body{
+    background-image: url(Homepage.png);
+    /* background-repeat: no-repeat; */
+    background-size:100vw 100vh;
+    background-position: center center;  
+    background-attachment: fixed;
+}
+
+.signUpBox{
+   background-color: rgba(219, 219, 163, 0.5);
+   width: fit-content;
+   padding-left: 6rem;
+   padding-right: 5rem;
+   padding-top: 2rem;
+   margin: 2rem;
+   height: 42rem;
+} 
+
+input{
+    background-color: white;
+    border-radius: 0.4rem;
+    border-color: rgb(198, 190, 190); 
+    width: 100%;
+    border: none;
+    padding:0.7rem 0rem;
+}
+
+ .button1{
+    background-color: rgb(81, 179, 12);
+    border: none;
+    border-radius: 0.4rem;
+    color:white;
+    width: 20rem;
+    height: 2.3rem;
+}
+
+.button2{
+    border-color: rgb(114, 227, 9);
+    border-radius: 0.4rem;
+    color:rgb(110, 238, 19);
+    width: 20rem;
+    height: 2.3rem;
+}
+
+a{
+    text-decoration: none;
+}
+
+img{
+    width: 1rem;
+    
+}
+
+.signIn{
+    display: flex;
+    justify-content: center;
+}
