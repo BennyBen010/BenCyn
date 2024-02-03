@@ -12,8 +12,11 @@ body{
    padding-left: 6rem;
    padding-right: 5rem;
    padding-top: 2rem;
+   padding-bottom: 2rem;
    margin: 2rem;
-   height: 42rem;
+   height:83% ;
+   margin-top: 10rem;
+   
 } 
 
 input{
@@ -23,6 +26,11 @@ input{
     width: 100%;
     border: none;
     padding:0.7rem 0rem;
+
+}
+
+label{
+    font-size: 15px;
 }
 
  .button1{
@@ -30,7 +38,7 @@ input{
     border: none;
     border-radius: 0.4rem;
     color:white;
-    width: 20rem;
+    width: 13rem;
     height: 2.3rem;
 }
 
@@ -38,16 +46,17 @@ input{
     border-color: rgb(114, 227, 9);
     border-radius: 0.4rem;
     color:rgb(110, 238, 19);
-    width: 20rem;
+    width: 13rem;
     height: 2.3rem;
 }
 
 a{
     text-decoration: none;
+    font
 }
 
 img{
-    width: 1rem;
+    width: 10px;
     
 }
 
@@ -56,7 +65,68 @@ img{
     justify-content: center;
 }
 
-@media screen and (orientation: portrait) {
-
+p{
+    width: 170px;
+    font-size: 13px;
 }
+
+@media (max-width: 600px) {
+    body{
+        background-image: url(Homepage.png);
+        background-repeat: no-repeat;
+        background-size:100vw 60vh;
+        background-position: center center;  
+        background-attachment: fixed;
+    } 
     
+    .signUpBox{
+        background-color: rgba(219, 219, 163, 0.5);
+        width: fit-content;
+        padding-left: 25px;
+        padding-right: 25px;
+        padding-top: 1px;
+        margin: 1px;
+        margin-top: 150px;
+        height: 300px;
+     } 
+
+     h3{
+        font-size: 15px;
+        margin-bottom: -1px;
+     }
+
+     input{
+        width: 140px;
+        padding:2px ;
+        padding-left: 10px;
+        height: 15px;
+        border-radius: 5px;
+        margin-top: -10px;
+     }
+     label{
+        font-size: 10px;
+     }
+
+     .button1{
+        width: 150px;
+        height: 20px;
+        border-radius: 6px;
+        font-size: 10px; ;
+     }
+     .button2{
+        width: 150px;
+        height: 20px;
+        border-radius: 6px;
+        font-size: 10px;
+        margin-bottom: -5px;
+     }
+     img{
+        width: 6px;
+     }
+
+     p{
+        width: 130px;
+        font-size: 10px;
+        
+     }
+}
